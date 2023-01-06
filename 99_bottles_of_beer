@@ -1,0 +1,25 @@
+var bottleNumber = 99;
+
+function poem(){
+
+	while (bottleNumber >= 1){
+		if(bottleNumber <= 1){
+		console.log(bottleNumber + " bottle of beer on the wall, " + bottleNumber + " bottle of beer");
+	} else{
+		console.log(bottleNumber + " bottles of beer on the wall, " + bottleNumber + " bottles of beer");
+	}
+
+	bottleNumber--
+
+		if(bottleNumber < 2){
+		console.log("Take one down and pass it round, " + bottleNumber + " bottle of beer on the wall");
+	} else{
+		console.log("Take one down and pass it round, " + bottleNumber + " bottles of beer on the wall");
+	}
+
+
+	}
+
+}
+
+poem();
