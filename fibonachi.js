@@ -16,7 +16,7 @@ function fibonachi(n){
 		fibGen = num2;
 
 		for (i = 2; i < n; i++){
-		fibGen.push(fibGen[fibGen.length - 2] + fibGen[fibGen.length - 1])
+		fibGen.push(fibGen[fibGen.length - 2] + fibGen[fibGen.length - 1]);
 		}
 	}
 	
